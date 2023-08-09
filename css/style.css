@@ -1,10 +1,13 @@
-/********** Template CSS **********/
+/********** website CSS **********/
 :root {
-    --primary: #006D04;
+    --primary: #096b14;
     --secondary: #23851d;
     --light: #F6F7FC;
-    --dark: #006D04;
-    --bg-primary : #006D04 !important;
+    --dark: ##096b14;
+}
+
+.nav-link.active > .customnavclass {
+    color: white;
 }
 
 .back-to-top {
@@ -188,8 +191,8 @@
 }
 
 .page-header {
-    background: url(../img/carousel-1.jpg) center center no-repeat;
-    background-size: cover;
+    background: linear-gradient(rgb(6 112 21 / 90%), rgb(157 220 54 / 90%)), url(../img/carousel-1.jpg) center right no-repeat;
+    background-size: cover
 }
 
 .page-header .breadcrumb-item,
@@ -244,7 +247,7 @@
 }
 
 .container.facts .facts-text {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(rgb(6 112 21 / 90%), rgb(157 220 54 / 90%)), url(../img/carousel-1.jpg) center right no-repeat;
     background-size: cover;
 }
 
@@ -360,8 +363,8 @@
 
 .testimonial-left img:nth-child(1),
 .testimonial-right img:nth-child(3) {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     top: 10%;
     left: 50%;
     transform: translateX(-50%);
@@ -369,8 +372,8 @@
 
 .testimonial-left img:nth-child(2),
 .testimonial-right img:nth-child(2) {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     top: 50%;
     left: 10%;
     transform: translateY(-50%);
@@ -378,8 +381,8 @@
 
 .testimonial-left img:nth-child(3),
 .testimonial-right img:nth-child(1) {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     bottom: 10%;
     right: 10%;
 }
@@ -403,7 +406,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #f4f5f4;
     background: var(--primary);
     border-radius: 10px;
     font-size: 22px;
